@@ -62,7 +62,7 @@
                 <version>6.9.0</version>
                 <configuration>
                     <activeRecipes>
-                        <recipe>org.openrewrite.java.migrate.jakarta.JakartaEE11</recipe>
+                        <recipe>com.gepardec.JakartaEE11</recipe>
                     </activeRecipes>
                 </configuration>
                 <dependencies>
