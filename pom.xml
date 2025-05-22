@@ -64,6 +64,7 @@
                     <activeRecipes>
                         <recipe>com.gepardec.JakartaEE11</recipe>
                     </activeRecipes>
+                    <exportDatatables>true</exportDatatables>
                 </configuration>
                 <dependencies>
                     <dependency>

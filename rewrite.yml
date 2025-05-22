@@ -7,10 +7,5 @@ description: |
 tags:
   - jakarta
 recipeList:
-  - org.openrewrite.java.migrate.jakarta.JakartaEE11
-  - org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId:
-      oldGroupId: org.glassfish.main
-      oldArtifactId: javax.ejb
-      newGroupId: jakarta.ejb
-      newArtifactId: jakarta.ejb-api
-      newVersion: latest.version
+  - org.openrewrite.java.search.FindAnnotations:
+        annotationPattern: '@javax.inject.Inject()'
