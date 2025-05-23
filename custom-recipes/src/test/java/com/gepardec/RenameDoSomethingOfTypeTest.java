@@ -12,7 +12,7 @@ public class RenameDoSomethingOfTypeTest implements RewriteTest {
     @Override
     public void defaults(RecipeSpec spec) {
         spec
-//                .recipe(new RenameDoSomethingOfType())
+                .recipe(new RenameDoSomethingOfType())
                 .parser(Java17Parser.builder()
                         .dependsOn("""
                                 package com.gepardec;
